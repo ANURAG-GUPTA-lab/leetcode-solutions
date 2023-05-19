@@ -20,7 +20,7 @@ class Solution {
                 if (colors[neighbor] == colors[currVertex]) {
                     return false; 
                 }
-                if (colors[neighbor] == 0) {
+                if else (colors[neighbor] == 0) {
                     colors[neighbor] = -colors[currVertex];  
                     queue.offer(neighbor);
                 }
